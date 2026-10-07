@@ -18,17 +18,16 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-//En esta parte compararemos si las metradas son iguales, ya que cuando revisen nuestro informe, observaran que en el logisim, al momento de ahcer el diagrama, se nos repite mucho esta parte que compara
-//ahora cambie
+
+
 module comparar(
         input logic p0x, p1x, p0y, p1y,
         output logic y
     );
     
     logic x1, x2;
-    xnor xno1 (x1, p0x, p0y);
-    xnor xno2 (x2, p1x, p1y);
-    
-    and  and1 (y, x1, x2);
+    assign x1=p0x~^p0y;
+    assign x2=~(p1y^p1y);
+    assign y=x1&x2;
 endmodule
 
