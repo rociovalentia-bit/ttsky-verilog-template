@@ -42,7 +42,6 @@ module toqueofama(
     comparar comp33 (.p0y(A0y),.p0y(A1y),.p0y(C0x),.p0y(C1x),.p0y(x2));
     comparar comp34 (.p1y(A0y),.p1y(A1y),.p1y(C0x),.p1y(C1x),.p1y(x2));
     assign x3=x1||x2
-    assign not_F||F
     assign T=x3&not_F
 
     //or or1 (x3,x1,x2);
