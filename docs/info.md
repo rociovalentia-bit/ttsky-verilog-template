@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Hola no se como funciona esto
+Toque o Fama es un juego antiguo, el cual no deja de entretener. El juego consiste en 2 jugadores designados por JUgador X e Y 
 
 ## How to test
 
