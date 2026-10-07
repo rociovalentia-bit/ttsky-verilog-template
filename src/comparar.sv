@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 //En esta parte compararemos si las metradas son iguales, ya que cuando revisen nuestro informe, observaran que en el logisim, al momento de ahcer el diagrama, se nos repite mucho esta parte que compara
-
+//ahora cambie
 module comparar(
         input logic p0x, p1x, p0y, p1y,
         output logic y
